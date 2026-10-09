@@ -13,3 +13,8 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal-pending{opacity:1;transform:none}.cinema>img.scene-out{opacity:1;transform:none}}
 
 .process article,.craft figure,.finishes>div{transition:opacity .7s ease,transform .7s ease}.grain-surface:before{background-size:cover;background-repeat:no-repeat;opacity:.085}.wood-shavings{z-index:0}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
